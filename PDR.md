@@ -216,7 +216,7 @@ Date: 16/12/2025
   isAdmin: Boolean
 }
 
-**2. Products Collection:**
+#### **2. Products Collection:**
 {
   _id: ObjectId,
   name: String,
@@ -231,7 +231,8 @@ Date: 16/12/2025
   createdAt: Date,
   updatedAt: Date
 }
-**3. Orders Collection:**
+
+#### **3. Orders Collection:**
 {
   _id: ObjectId,
   userId: ObjectId,
@@ -251,7 +252,8 @@ Date: 16/12/2025
   createdAt: Date,
   updatedAt: Date
 }
-**4. Carts Collection:**
+
+#### **4. Carts Collection:**
 {
   _id: ObjectId,
   userId: ObjectId,
@@ -265,7 +267,8 @@ Date: 16/12/2025
   createdAt: Date,
   updatedAt: Date
 }
-**5. Categories Collection:**
+
+#### **5. Categories Collection:**
 {
   _id: ObjectId,
   name: String,
@@ -274,7 +277,7 @@ Date: 16/12/2025
   imageUrl: String
 }
 
-Relationships:
+#### **Relationships:**
 One-to-Many: User → Orders (one user, many orders)
 
 One-to-One: User → Cart (one cart per user)
