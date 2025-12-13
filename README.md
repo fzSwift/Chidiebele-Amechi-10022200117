@@ -1,5 +1,5 @@
 # 🌥️ Cloud Application Project
-## E-commerce Platform / Video Sharing App
+## E-commerce Platform
 
 **Student:** Chidiebele Bennjamin Amechi  
 **Index Number:** 10022200117  
