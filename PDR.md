@@ -23,18 +23,91 @@ Date: 16/12/2025
 ---
 
 ## Chapter 1: The Spark—Mapping My Vision
-*Date Started: 6/12/2025*
+*Date Started: [Current Date]*
 
 ### 1.1 Project Overview and Objectives
-*[To be filled with your project choice and objectives]*
+
+**Project Title:** EcoGhana Electronics - Sustainable Tech Marketplace
+
+**Project Type:** E-commerce Platform
+
+**Niche:** Ghanaian Eco-Electronics Store
+
+**Primary Objectives:**
+1. To develop a fully functional cloud-based e-commerce platform
+2. To implement sustainable shopping features (carbon footprint calculator, eco-score for products)
+3. To demonstrate full SDLC implementation with cloud deployment
+4. To incorporate Ghana-local payment and delivery integrations
+
+**Secondary Objectives:**
+1. Implement user authentication and authorization
+2. Create admin dashboard for product and order management
+3. Integrate with cloud services for scalability
+4. Implement responsive design for mobile and desktop
+
+**Unique Selling Points:**
+- Carbon footprint calculator for each purchase
+- Ghana-specific payment methods (MTN Mobile Money, AirtelTigo Cash)
+- Local delivery tracking integration
+- Eco-rating system for products
+
+  ![Brainstorm Document](images/chapter1/google-doc-brainstorm.png)
+*Figure 1.1: Initial brainstorm session captured in Google Docs
 
 ### 1.2 Scope Definition and Stakeholders
-*[To be filled with stakeholder matrix]*
+
+**In-Scope:**
+- User registration and authentication
+- Product browsing and search
+- Shopping cart and checkout process
+- Order management and tracking
+- Admin dashboard for CRUD operations
+- Payment gateway integration
+- Cloud deployment and CI/CD pipeline
+
+**Out-of-Scope:**
+- Physical inventory management
+- International shipping logistics
+- Advanced AI recommendations (beyond basic)
+- Mobile app development (web-only)
+
+**Stakeholder Matrix:**
+
+| Stakeholder | Role | Interest/Needs | My Insight |
+|-------------|------|----------------|------------|
+| **End Customers** | Primary users | Easy shopping, secure payments, delivery tracking | Through simulated chat: Customers want "buy now, pay later" options and local delivery estimates |
+| **Admin/Store Owner** | Platform manager | Product management, order processing, analytics | Needs intuitive dashboard with bulk operations |
+| **Delivery Partners** | External service | Integration with their tracking systems | API documentation must be clear and standardized |
+| **Payment Providers** | External service | Secure transaction processing | MTN Mobile Money API requires specific authentication flows |
+| **Developer (Me)** | System builder | Scalable, maintainable code, clear documentation | Must balance innovation with project timeline constraints |
+
+[Stakeholder Feedback](images/chapter1/whatsapp-stakeholder-chat.png)
+*Figure 1.2: WhatsApp conversation with potential customer Sarah gathering requirements 
+
+*Note: See Appendix A for WhatsApp chat screenshot with simulated customer feedback.*
 
 ### 1.3 Project Timeline and Resource Allocation
-*[To be filled with Gantt chart]*
 
----
+**Timeline Overview:** 10 Days (As per examination requirements)
+
+**Key Milestones:**
+1. Day 1-2: Planning & Setup
+2. Day 3-4: Design & Architecture
+3. Day 5-7: Core Implementation
+4. Day 8-9: Testing & Integration
+5. Day 10: Deployment & Documentation
+
+**Resource Allocation:**
+- **Development Tools:** VS Code, GitHub, Postman, Figma
+- **Cloud Services:** Vercel (frontend), Render/Railway (backend), MongoDB Atlas (database)
+- **Team:** Solo project (all roles: developer, designer, tester, devops)
+- **Budget:** $0 (using free tiers of cloud services)
+
+![Hand-drawn Timeline](images/chapter1/gantt-hand-drawn.jpg)
+*Figure 1.3a: Initial hand-drawn project timeline*
+
+![Digital Gantt Chart](images/chapter1/gantt-digital.png)
+*Figure 1.3b: Digital Gantt chart created in Google Sheets showing task allocation across 10 days*
 
 ## Chapter 2: Listening and Structuring—From Chaos to Clarity
 *Date Started: [Date]*
